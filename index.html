@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Cloth Shop Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+     href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+     
+     <style>
+        .dropdown {
+          position: relative;
+          display: inline-block;
+        }
+        
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f9f9f9;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(236, 227, 227, 0.2);
+          padding: 12px 16px;
+          z-index: 1;
+        }
+        
+        .dropdown:hover .dropdown-content {
+          display: block;
+        }
+        </style>
+</head>
+<body>
+    <!--Navbar-->
+    <header>
+        <a href="#" class="logo">
+            <img src="img/logo.webp" alt="">
+        </a>
+        <!--Menu Icon-->
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <!--Links-->
+        <ul class="navbar"> 
+            <li><a href="#Home">Home</a></li>    
+            <li><a href="#About Us">About Us</a></li> 
+            <li><a href="#Products~">Products~ </a>
+            <li><a href="#Contact Us">Contact Us</a></li>       
+         </ul>
+        <!--Icons-->
+        <div class="header-icon">
+        <i class='bx bx-cart'></i>
+        <i class='bx bx-search-alt-2' id="search-icon"></i>
+        </div>
+
+        <!--Search Box-->
+        <div class="search-box">
+            <input type="search" placeholder="Search here....." >
+        </div>
+    </header>
+    <!--Home-->
+    <section class="home" id="home">
+        <div class="home-text">
+         <br><h2>-Roar Looks-</h2><br>
+         <h1>Most Wanted<br>And Most Loved</h1>
+         <br><br><br><a href="#" class="button">Shop Now</a>
+         </div>
+    <div class="home-img">
+        <br><img src="img/Models.jpg" alt="">
+    </div>
+    </section>
+    <!--About-->
+    <section class="about s" id="About Us">
+    <div class="about-img">
+        <br><br><br><img src="img/aboutus.jpg" alt="">
+    </div>
+    <div class="about-text">
+        <br><br><br><h2>About Us</h2><br><br>
+      <p>Roarlooks is guided by its principle of producing thoughtful and timeless pieces that honor tradition and craftmanship.Our pieces are skillfully made and thoughtfully designed to last longer,worn by one generation and passed on the next.</p><br><br><br>
+      <a href="#" class="button">Learn More</a>
+    </div>
+    </section>
+    <!--Products-->
+     <section class="Products~" id="Products~">
+        <div class="heading"> 
+            <h2>Products</h2>
+        </div>
+ 
+     <!--Container-->
+     <div class="product-container"> 
+
+         <div class="Ladies">
+            <img src="img/womens' top.webp" alt="">
+            <h3>Ladies' Top</h3>
+            <p>Availability: In Stock</p>
+            <div class="content">
+                <span>Rs.2000/=</span>
+                <a href="#">Add to Cart</a>
+            </div>
+        </div>
+
+        <div class="Ladies">
+            <img src="img/women's jean.webp" alt="">
+            <h3>Ladies' Jean</h3>
+            <p>Availability: In Stock</p>
+            <div class="content">
+                <span>Rs.3500/=</span>
+                <a href="#">Add to Cart</a>
+            </div>
+        </div>
+
+        <div class="Ladies">
+            <img src="img/women's skirt.webp" alt="">
+            <h3>Ladies' Skirt</h3>
+            <p>Availability: In Stock</p>
+            <div class="content">
+                <span>Rs.1500/=</span>
+                <a href="#">Add to Cart</a>
+            </div>
+        </div>
+
+        <div class="Ladies">
+            <img src="img/womens' dress.webp" alt="">
+            <h3>Ladies' Dress</h3>
+            <p>Availability: In Stock</p>
+            <div class="content">
+                <span>Rs.3000/=</span>
+                <a href="#">Add to Cart</a>
+            </div>
+        </div>
+
+        <div class="Ladies">
+            <img src="img/women's accessories.jpg" alt="">
+            <h3>Ladies' Accessories</h3>
+            <p>Availability: In Stock</p>
+            <div class="content">
+                <span>Rs._____/=</span>
+                <a href="#">Add to Cart</a>
+            </div>
+        </div>
+
+        <br><div class="Gents">
+            <img src="img/mens' shirt.webp" alt="">
+            <h3>Gents's Shirt</h3>
+            <p>Availability: In Stock</p>
+            <div class="content">
+                <span>Rs.3000/=</span>
+                <a href="#">Add to Cart</a>
+            </div>
+        </div>
+
+        <div class="Gents">
+            <img src="img/mens' t-shirt.webp" alt="">
+            <h3>Gents's T-shirt</h3>
+            <p>Availability: In Stock</p>
+            <div class="content">
+                <span>Rs.2500/=</span>
+                <a href="#">Add to Cart</a>
+            </div>
+        </div>
+
+        <div class="Gents">
+            <img src="img/mens' jean.jpg" alt="">
+            <h3>Gents's Jeans</h3>
+            <p>Availability: In Stock</p>
+            <div class="content">
+                <span>Rs.4000/=</span>
+                <a href="#">Add to Cart</a>
+            </div>
+        </div>
+
+        <div class="Gents">
+            <img src="img/mens' accessories.jpg" alt="">
+            <h3>Gents's Accessories</h3>
+            <p>Availability: In Stock</p>
+            <div class="content">
+                <span>Rs.2000/=</span>
+                <a href="#">Add to Cart</a>
+        </div>
+    </div>
+    
+        <br><br><div class="Girls">
+            <img src="img/girl's top.webp" alt="">
+            <h3>Girls' Jean</h3>
+            <p>Availability: In Stock</p>
+            <div class="content">
+                <span>Rs.2500/=</span>
+                <a href="#">Add to Cart</a>
+            </div>
+        </div>
+
+        <div class="Girls">
+            <img src="img/girl's jean.webp" alt="">
+            <h3>Girls'Jean</h3>
+            <p>Availability: In Stock</p>
+            <div class="content">
+                <span>Rs.2500/=</span>
+                <a href="#">Add to Cart</a>
+            </div>
+        </div>
+
+        <div class="Girls">
+            <img src="img/girl's dress.webp" alt="">
+            <h3>Girls' Dress</h3>
+            <p>Availability: In Stock</p>
+            <div class="content">
+                <span>Rs.2000/=</span>
+                <a href="#">Add to Cart</a>
+            </div>
+        </div>
+
+        <br><br><div class="Boys">
+            <img src="img/boy's shirt.webp" alt="">
+            <h3>Boys' Shirt</h3>
+            <p>Availability: In Stock</p>
+            <div class="content">
+                <span>Rs.1800/=</span>
+                <a href="#">Add to Cart</a>
+            </div>
+        </div>
+
+        <div class="Boys">
+            <img src="img/boy's t-shirt.jpg" alt="">
+            <h3>Boys' T-Shirt</h3>
+            <p>Availability: In Stock</p>
+            <div class="content">
+                <span>Rs.1500/=</span>
+                <a href="#">Add to Cart</a>
+            </div>
+        </div>
+
+        <div class="Boys">
+            <img src="img/boy's jean.webp" alt="">
+            <h3>Boys' Jean</h3>
+            <p>Availability: In Stock</p>
+            <div class="content">
+                <span>Rs.2000/=</span>
+                <a href="#">Add to Cart</a>
+            </div>
+        </div>
+
+        <div class="Kids">
+            <img src="img/kids accessories.jpg" alt="">
+            <h3>Kids' Accessories</h3>
+            <p>Availability: In Stock</p>
+            <div class="content">
+                <span>Rs._____/=</span>
+                <a href="#">Add to Cart</a>
+            </div>
+        </div>
+
+    </div>
+    </section>
+    <!--Contct Us--> 
+         <section class="Contact Us" id="Contact Us">        
+           <div class="heading">
+             <h2>Contact Us</h2>
+           </div>
+           <!--Container-->
+           </div>
+           <div class="contact-container">
+            <div class="contact-text" id="contact">
+                  <centre><br><h2>We Guarantee</h2></centre>
+                  <centre><br><p><b>FREE DELIVERY</b><br>No minium order required<br><br><b>FREE RETURNS</b><br>With money-back guarantee<br><br><b>SECURE PAYMENT</b><br>Guaranteed safe transaction</p></centre>
+            </div>
+         </div>
+        </section> 
+    <!--footer section-->
+    <selection class="footer">
+        <div class="footer-box">
+            <h3>Roar Looks <br> Cloth Shop</h3>
+            <div class="social"> 
+                <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-tiktok'></i></a>
+          </div>
+        </div>
+
+            <div class="footer-box"> 
+               <h3>Support</h3>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Help & Support</a></li>
+                <li><a href="#">Return Policy</a></li>
+                <li><a href="#">Products</a></li>
+            </div>  
+
+            <div class="footer-box"> 
+               <h3>View Guied</h3>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Blog Post</a></li>
+                <li><a href="#">Our Branches</a></li>
+            </div>  
+
+            <div class="footer-box"> 
+                <h3>Contact</h3>
+                <div class="contct">
+                    <span><i class='bx bxs-map'></i>25,Main Road,Colombo</span><br>
+                    <span><i class='bx bxs-phone-call'></i>+94 75 100 200</span><br>
+                    <span><i class='bx bxs-envelope'></i>RoarLooks@Shop.com</span>
+                </div>
+     </selection>
+     <footer>
+        <p>&copy; Roar Looks 2024 Online Clothing Store</p>
+    </footer>       
+</body>
+</html>

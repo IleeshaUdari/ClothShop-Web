@@ -1,0 +1,421 @@
+*{
+  font-family: cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-padding-top:  4rem;
+  scroll-behavior:smooth ;
+  list-style: none;
+  text-decoration: none;
+
+}
+:root{
+    --main-color: #bc9696;
+    --secondary-color: #edeae3;
+    --text-color: #1b1b1b;
+    --bg-color: #fff;
+    --box-shadow: 2px 2px 10px 14px  rgb(14 55 54/15%);
+}
+section{
+    padding: 50px 100px;
+}
+img{
+    width: 100%;
+}
+body{
+    color: var(--text-color);
+}
+header{
+    position:fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    padding: 18px 100px;
+    background-color: var(--text-color);
+    transition: 0.5s linear;
+}
+.logo img{
+    width: 60px;
+}
+.navbar{
+    display: flex;
+}
+.navbar a{
+    padding: 8px 17px;
+    color: var(--bg-color);
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight:500 ;
+}
+
+.navbar a:hover{
+    background-color: var(--main-color);
+    border-radius: 0.2rem;
+    transition-property: background-color;
+    transition-duration:0.5s ;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+}
+.header-icon{
+    font-size: 22px;
+    cursor: pointer;
+    z-index: 10000;
+    display: flex;
+    column-gap: 0.8rem;
+}
+.header-icon .bx{
+    color: var(--bg-color);
+}
+#menu-icon{
+    color: var(--bg-color);
+    font-size: 24px;
+    z-index: 100001;
+    cursor: pointer;
+
+}
+.search-box{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%);
+    background: var(--bg-color);
+    width: 100%;
+}
+.search-box input{
+    padding: 20px;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 1rem;
+    color: var(--main-color);
+}
+.search-box input::placeholder{
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+.home{
+    width: 100%;
+    min-height: 100vh;
+    background: url(img/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(25rem,auto));
+    align-items: center; 
+    gap: 1.5rem;
+  
+}
+.home-text h2{
+    padding: 10px 100px;
+    font-size: 1.4rem;
+    color: orangered;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.home-text h1{
+    font-size: 3.4rem;
+    color: brown;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+}
+.button{
+    padding: 10px 40px;
+    border-radius:0.3rem ;
+    background: var(--main-color);
+    color: var(--bg-color);
+    font-weight: 500;
+}
+.button:hover{
+    background: #8a6f4d;
+}
+.about{
+    width: 100%;
+    min-height: 100vh;
+    background: url(img/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    content: center;
+    grid-template-columns: repeat(auto-fit,minmax(17rem,auto));
+    gap:1.5rem;
+}
+.about-img img{
+    border-radius: 1.8rem;
+}
+.about-text h2{
+    padding: 10px 100px;
+    font-weight: 500;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+.about-text p{
+    font-size: 1.4rem;
+    margin: 0.5rem 0 1.1;
+}
+
+.heading{
+    text-align: center;
+}
+.header h2{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+.product-container{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,auto));
+    gap:1.5rem;
+    margin-top: 2rem;
+}
+.product-container .Ladies{
+    position: relative;
+    border: 1px solid black;
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    box-shadow: var(--box-shadow);
+}
+.product-container .Gents{
+    position: relative;
+    border: 1px solid black;
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    box-shadow: var(--box-shadow);
+}
+.product-container .Gents{
+    position: relative;
+    border: 1px solid black;
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    box-shadow: var(--box-shadow);
+}
+.product-container .Gents{
+    position: relative;
+    border: 1px solid black;
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    box-shadow: var(--box-shadow);
+}
+.product-container .Girls{
+    position: relative;
+    border: 1px solid black;
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    box-shadow: var(--box-shadow);
+}
+.product-container .Boys{
+    position: relative;
+    border: 1px solid black;
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    box-shadow: var(--box-shadow);
+}
+.product-container .Kids{
+    position: relative;
+    border: 1px solid black;
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    box-shadow: var(--box-shadow);
+}
+.product-container img{
+    width: 100%;
+    height: 250px;
+    object-position: center;
+    padding: 20px;
+    background: #f1f1f1;
+    border-radius: 0.5rem;
+}
+.product-container .Ladies h3{
+    justify-content: space-around;
+}
+.product-container .Gents h3{
+    justify-content: space-around;
+}
+.product-container .Girls h3{
+    justify-content: space-around;
+}
+.product-container .Boys h3{
+    justify-content: space-around;
+}
+.product-container .Kids h3{
+    justify-content: space-around;
+}
+.product-container .Ladies:hover{
+    background-color: var(--secondary-color);
+    transform: scale(105%);
+    transition: 1s background-color linear,1s color liner;
+}
+.product-container .Gents:hover{
+    background-color: var(--secondary-color);
+    transform: scale(105%);
+    transition: 1s background-color linear,1s color liner;
+}
+.product-container .Girls:hover{
+    background-color: var(--secondary-color);
+    transform: scale(105%);
+    transition: 1s background-color linear,1s color liner;
+}
+.product-container .Kids:hover{
+    background-color: var(--secondary-color);
+    transform: scale(105%);
+    transition: 1s background-color linear,1s color liner;
+}
+.product-container .Ladies .content{
+    background-color: var(--secondary-color);
+    transform: scale(105%);
+    transition: 1s background-color linear,1s color liner;
+}
+.product-container .Ladies .content{
+    background-color: var(--secondary-color);
+    transform: scale(105%);
+    transition: 1s background-color linear,1s color liner;
+}
+
+.product-container .Ladies .content span{
+    padding: 0 1rem;
+    color: var(--bg-color);
+    background:var(--main-color);
+    border-radius: 4px;
+    font-weight: 500;
+}
+.product-container .Gents .content span{
+    padding: 0 1rem;
+    color: var(--bg-color);
+    background:var(--main-color);
+    border-radius: 4px;
+    font-weight: 500;
+}
+.product-container .Girls .content span{
+    padding: 0 1rem;
+    color: var(--bg-color);
+    background:var(--main-color);
+    border-radius: 4px;
+    font-weight: 500;
+}
+.product-container .Boys .content span{
+    padding: 0 1rem;
+    color: var(--bg-color);
+    background:var(--main-color);
+    border-radius: 4px;
+    font-weight: 500;
+}
+.product-container .Kids .content span{
+    padding: 0 1rem;
+    color: var(--bg-color);
+    background:var(--main-color);
+    border-radius: 4px;
+    font-weight: 500;
+}
+.product-container .Ladies .content a{
+    border: 2px solid var(--main-color);
+    padding: 0 1rem ;
+    border-radius: 4px;
+}
+.product-container .Gents .content a{
+    border: 2px solid var(--main-color);
+    padding: 0 1rem ;
+    border-radius: 4px;
+}
+.product-container .Girls .content a{border: 2px solid var(--main-color);
+    padding: 0 1rem ;
+    border-radius: 4px;
+}
+.product-container .Boys .content a{border: 2px solid var(--main-color);
+    padding: 0 1rem ;
+    border-radius: 4px;
+}
+.product-container .Kids .content a{
+    border: 2px solid var(--main-color);
+    padding: 0 1rem ;
+    border-radius: 4px;
+}
+.product-container .Ladies .content a:hover{
+    background-color: var(--main-color);
+    color:var(--bg-color);
+    transition: 1s background-color linear,1s color liner;
+}
+.product-container .Gents .content a:hover{  
+     background-color: var(--main-color);
+    color:var(--bg-color);
+    transition: 1s background-color linear,1s color liner;
+}
+.product-container .Girls .content a:hover{
+    background-color: var(--main-color);
+    color:var(--bg-color);
+    transition: 1s background-color linear,1s color liner;
+}
+.product-container .Boys .content a:hover{ 
+      background-color: var(--main-color);
+    color:var(--bg-color);
+    transition: 1s background-color linear,1s color liner;
+}
+.product-container .Kids .content a:hover{  
+     background-color: var(--main-color);
+    color:var(--bg-color);
+    transition: 1s background-color linear,1s color liner;
+}
+.contact-container{
+    width: 100%;
+    min-height: 15vh;
+    background: url(img/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.contact-text h2{
+    font-weight: 500;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1.5rem;
+}
+.footer-box h3{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.social{
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+.social a.bx:hover{
+     background: var(--main-color);
+     color: var(--bg-color);
+}
+.footer-box li a{
+    color:var(--text-color);
+
+}
+.footer-box li a:hover{
+    color: var(--main-color);
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+}
