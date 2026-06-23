@@ -10,7 +10,7 @@
 
 
 <p align="center">
-  <img src="images/cloth-shop-home.png" alt="Roar Looks Home Page" width="100%" style="border-radius: 12px;" />
+  <img src="cloth-shop-home.png" alt="Roar Looks Home Page" width="100%" style="border-radius: 12px;" />
 </p>
 
 
@@ -46,7 +46,7 @@ The home page provides a welcoming fashion store interface including:
 
 
 <p align="center">
-  <img src="images/cloth-shop-home.png" 
+  <img src="cloth-shop-home.png" 
        alt="Roar Looks Home Interface" 
        width="85%" 
        style="border-radius: 12px;" />
