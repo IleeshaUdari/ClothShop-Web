@@ -18,7 +18,6 @@
   <img src="https://img.shields.io/badge/HTML5-Website-orange?style=for-the-badge&logo=html5" />
   <img src="https://img.shields.io/badge/CSS3-Styling-blue?style=for-the-badge&logo=css3" />
   <img src="https://img.shields.io/badge/Responsive-Design-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Project-Type-Frontend%20Website-purple?style=for-the-badge" />
 </p>
 
 
