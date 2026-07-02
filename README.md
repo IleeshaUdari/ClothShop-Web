@@ -143,7 +143,7 @@ The home page provides a welcoming fashion store interface including:
 
 
 ```bash
-git clone https://github.com/your-username/roar-looks-cloth-shop.git
+git clone https://github.com/IleeshaUdari/roar-looks-cloth-shop.git
 ```
 
 
